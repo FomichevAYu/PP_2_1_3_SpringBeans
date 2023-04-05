@@ -14,7 +14,7 @@ public class AnimalsCage {
     private Timer timer;
 
 
-    public AnimalsCage(@Qualifier("Dog") Animal animal, @Qualifier("Timer") Timer timer) {
+    public AnimalsCage(@Qualifier("Dog") Animal animal, Timer timer) {
         this.animal = animal;
         this.timer = timer;
     }
